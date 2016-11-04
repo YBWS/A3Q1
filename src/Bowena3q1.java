@@ -58,12 +58,12 @@ public class Bowena3q1 {
          
          Average=(firstNum+secondNum+thirdNum+forthNum+fifthNum)/5;
          
-         System.out.println("\n"+"first number is:"+firstNum);
-         System.out.println("\n"+"second number is:"+secondNum);
-         System.out.println("\n"+"third number is:"+thirdNum);
-         System.out.println("\n"+"forth number is:"+forthNum);
-         System.out.println("\n"+"fifth number is:"+fifthNum);
-         System.out.println(String.format("Your Average: %17.2f", Average) );
+         System.out.println(String.format("%-22s"+firstNum,"first number is:"));
+         System.out.println(String.format("%-22s"+secondNum,"second number is:"));
+         System.out.println(String.format("%-22s"+thirdNum,"third number is:"));
+         System.out.println(String.format("%-22s"+forthNum,"forth number is:"));
+         System.out.println(String.format("%-22s"+fifthNum,"fifth number is:"));
+         System.out.println(String.format("%-22s"+ Average,"Your Average:"));
          
          
 
